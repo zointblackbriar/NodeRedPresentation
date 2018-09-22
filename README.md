@@ -7,7 +7,7 @@ If you want to run the latest code from git, here's how to get started:
 1. Clone the code:
 
         git clone git@github.com:zointblackbriar/NodeRedPresentation.git
-        cd node-red
+        cd NodeRedPresentation
 
 2. Install the node-red dependencies
 
