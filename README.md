@@ -29,6 +29,8 @@ Configuration Part
 
 If you require to use the feature of Real Time Database, you may configure as described below
 
+![Intro Page](https://github.com/zointblackbriar/NodeRedPresentation/tree/master/img/NodeRedPresentation/Firebase Intro.JPG)
+
 
 
 ## Contributing
