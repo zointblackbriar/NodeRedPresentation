@@ -29,15 +29,15 @@ Configuration Part
 
 If you require to use the feature of Real Time Database, you may configure as described below
 
-![Intro Page](zointblackbriar.github.com/NodeRedPresentation/img/NodeRedPresentation/Firebase_Intro.jpg)
+![Intro Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Firebase_Intro.png)
 
-![Index Page](zointblackbriar.github.com/NodeRedPresentation/img/NodeRedPresentation/Firebase_Index_HTML.jpg)
+![Index Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Firebase_Index_HTML.png)
 
-![Database Intro Page](zointblackbriar.github.com/NodeRedPresentation/img/NodeRedPresentation/Database_Intro.jpg)
+![Database Intro Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Database_Intro.png)
 
-![Database_Action Page](zointblackbriar.github.com/NodeRedPresentation/img/NodeRedPresentation/Database_Action.jpg)
+![Database_Action Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Database_Action.png)
 
-![Configuration Page](zointblackbriar.github.com/NodeRedPresentation/img/NodeRedPresentation/Configuration.jpg)
+![Configuration Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Configuration.png)
 
 
 
