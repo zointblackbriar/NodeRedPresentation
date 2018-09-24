@@ -29,13 +29,23 @@ Configuration Part
 
 If you require to use the feature of Real Time Database, you may configure as described below
 
+In Intro Page, as you can see that we need to create a Real Time Database
+
 ![Intro Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Firebase_Intro.png)
+
+As depicted image below, database might be configure to show about statistics of result
 
 ![Index Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Firebase_Index_HTML.png)
 
+You should create a Realtime Database in the page as below
+
 ![Database Intro Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Database_Intro.png)
 
+If you configured your page correctly, you will see result of MQTT data as depicted.
+
 ![Database_Action Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Database_Action.png)
+
+The following image is your MQTT node in node-red platform. Please assign your settings properly.
 
 ![Configuration Page](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Configuration.png)
 
