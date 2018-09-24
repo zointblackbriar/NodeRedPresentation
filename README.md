@@ -23,6 +23,13 @@ If you want to run the latest code from git, here's how to get started:
    or
 
         node red.js
+		
+
+Configuration Part
+
+If you require to use the feature of Real Time Database, you may configure as described below
+
+
 
 ## Contributing
 
