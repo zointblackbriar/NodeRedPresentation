@@ -1,39 +1,39 @@
 [
     {
-        "id": "f81e0891.aa45d8",
+        "id": "e1fd3ffa.d5077",
         "type": "tab",
         "label": "OPC UA ",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "362a98bc.ca2a48",
+        "id": "cfea63a8.14697",
         "type": "tab",
         "label": "MQTT and Login",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "24595db0.c85fa2",
+        "id": "bd53151f.a0e1e8",
         "type": "tab",
         "label": "Web Socket and Real Time Database",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "2f56a1b6.86a85e",
+        "id": "349ee88.2ce1218",
         "type": "tab",
         "label": "AdrianFlow",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "ca1a3f45.8878",
+        "id": "80c0227e.24992",
         "type": "mqtt-broker",
         "z": "",
         "name": "",
-        "broker": "broker.hivemq.com",
-        "port": "1883",
+        "broker": "linkedfactory.iwu.fraunhofer.de",
+        "port": "8883",
         "clientid": "",
         "usetls": false,
         "compatmode": true,
@@ -50,27 +50,41 @@
         "willPayload": ""
     },
     {
-        "id": "bd34c916.78e6a8",
+        "id": "af3c9702.ff29a8",
         "type": "mqtt-broker",
-        "broker": "broker.mqtt-dashboard.com",
+        "z": "",
+        "name": "",
+        "broker": "broker.hivemq.com",
         "port": "1883",
-        "clientid": ""
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "15",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
     },
     {
-        "id": "e16b2d86.2a633",
+        "id": "70f20080.67056",
         "type": "websocket-client",
         "path": "wss://echo.websocket.org",
         "wholemsg": "false"
     },
     {
-        "id": "9d8c7c26.b31e1",
+        "id": "a1649bc5.dd0968",
         "type": "firebase config",
         "z": "",
         "firebaseurl": "node-red-abf7a",
         "loginType": "none"
     },
     {
-        "id": "c1f36f3b.8dca1",
+        "id": "6d6a1e14.51517",
         "type": "OpcUa-Endpoint",
         "z": "",
         "endpoint": "opc.tcp://desktop-674d0i3:62541/DynamicServer",
@@ -79,14 +93,14 @@
         "login": false
     },
     {
-        "id": "6030421b.6a5b4c",
+        "id": "3d8ca6a7.17f07a",
         "type": "ui_tab",
         "z": "",
         "name": "Measurement",
         "icon": "dashboard"
     },
     {
-        "id": "a0b44eea.69f71",
+        "id": "22c962a2.db0cae",
         "type": "OpcUa-Endpoint",
         "z": "",
         "endpoint": "opc.tcp://DESKTOP-674D0I3:48010",
@@ -95,7 +109,7 @@
         "login": false
     },
     {
-        "id": "b4da37da.38d4a8",
+        "id": "a7e38f85.a7491",
         "type": "ui_group",
         "z": 0,
         "name": "MqttResult",
@@ -106,7 +120,7 @@
         "collapse": false
     },
     {
-        "id": "d2421f93.88623",
+        "id": "9f57304.cf29ed",
         "type": "ui_group",
         "z": 0,
         "name": "ParserGroup",
@@ -117,7 +131,7 @@
         "collapse": false
     },
     {
-        "id": "242fe50a.54ba7a",
+        "id": "9e1b3780.a635a8",
         "type": "ui_base",
         "z": 0,
         "theme": {
@@ -209,7 +223,7 @@
         }
     },
     {
-        "id": "d11f5786.292288",
+        "id": "5d43faf5.c81c14",
         "type": "ui_group",
         "z": 0,
         "name": "WebSocket Gauge",
@@ -220,7 +234,7 @@
         "collapse": false
     },
     {
-        "id": "295db3c5.c09d1c",
+        "id": "76a70193.13eff",
         "type": "ui_group",
         "z": 0,
         "name": "Login",
@@ -231,7 +245,7 @@
         "collapse": false
     },
     {
-        "id": "e5f9cdab.933b9",
+        "id": "9e762d10.ce9b5",
         "type": "ui_group",
         "z": 0,
         "name": "Group 1",
@@ -241,7 +255,7 @@
         "width": 6
     },
     {
-        "id": "3b838460.97fa8c",
+        "id": "b82dfbf.814e508",
         "type": "ui_group",
         "z": 0,
         "name": "Login",
@@ -252,7 +266,7 @@
         "collapse": false
     },
     {
-        "id": "4228b022.ffc59",
+        "id": "de9acc4.395a13",
         "type": "ui_group",
         "z": 0,
         "name": "Measure",
@@ -263,39 +277,39 @@
         "collapse": false
     },
     {
-        "id": "45178bb2.542ff4",
+        "id": "26f1007.53e9c",
         "type": "ui_group",
         "z": 0,
         "name": "Digital Sensor MQTT",
-        "tab": "6030421b.6a5b4c",
+        "tab": "3d8ca6a7.17f07a",
         "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "a9b8d470.9fab08",
+        "id": "4452a960.484348",
         "type": "ui_group",
         "z": 0,
         "name": "Analog Sensor MQTT",
-        "tab": "6030421b.6a5b4c",
+        "tab": "3d8ca6a7.17f07a",
         "order": 2,
         "disp": true,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "a40d4044.f6df9",
+        "id": "916f2e06.0c7cf",
         "type": "ui_group",
         "z": "",
         "name": "Test Sensor",
-        "tab": "6030421b.6a5b4c",
+        "tab": "3d8ca6a7.17f07a",
         "disp": true,
         "width": "6",
         "collapse": false
     },
     {
-        "id": "582ca32d.af8e9c",
+        "id": "13a47849.8bfe88",
         "type": "mqtt-broker",
         "z": "",
         "name": "linkedfactory",
@@ -317,16 +331,16 @@
         "willPayload": ""
     },
     {
-        "id": "742a9943.001558",
+        "id": "1e91c0c8.082ccf",
         "type": "ui_group",
         "name": "Group 1",
-        "tab": "9de1730b.0696e",
+        "tab": "d610dd72.7c021",
         "order": 1,
         "disp": true,
         "width": 6
     },
     {
-        "id": "9de1730b.0696e",
+        "id": "d610dd72.7c021",
         "type": "ui_tab",
         "z": "",
         "name": "mqtt-tab",
@@ -334,7 +348,7 @@
         "order": 1
     },
     {
-        "id": "fd78f713.ed8668",
+        "id": "4e76a6e7.e4fab8",
         "type": "mqtt-broker",
         "z": "",
         "name": "linkedfactory",
@@ -356,16 +370,16 @@
         "willPayload": ""
     },
     {
-        "id": "5aafa6ec.ac7b28",
+        "id": "23566f5a.08fbc",
         "type": "ui_group",
         "name": "Group 1",
-        "tab": "34d767d5.0e64b8",
+        "tab": "b6c1c9c6.abd678",
         "order": 1,
         "disp": true,
         "width": 6
     },
     {
-        "id": "34d767d5.0e64b8",
+        "id": "b6c1c9c6.abd678",
         "type": "ui_tab",
         "z": "",
         "name": "mqtt-tab",
@@ -373,9 +387,27 @@
         "order": 1
     },
     {
-        "id": "ded617dd.30e1c8",
+        "id": "60bf080.86258f8",
+        "type": "mqtt-broker",
+        "z": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "a0217028.8fd54",
         "type": "debug",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -387,44 +419,44 @@
         "wires": []
     },
     {
-        "id": "756ffd35.8bc7f4",
+        "id": "5a9def24.a660e",
         "type": "mqtt in",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "topic": "fgbe1300/sensors/room1/humidity",
         "qos": "2",
-        "broker": "ca1a3f45.8878",
+        "broker": "80c0227e.24992",
         "x": 700,
         "y": 340,
         "wires": [
             [
-                "ded617dd.30e1c8",
-                "713ae10a.41739"
+                "a0217028.8fd54",
+                "8941d25f.562f3"
             ]
         ]
     },
     {
-        "id": "fd81424.059cfc",
+        "id": "a75be82a.a0b1f8",
         "type": "mqtt in",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "topic": "CASAtemperatura",
         "qos": "2",
-        "broker": "ca1a3f45.8878",
+        "broker": "80c0227e.24992",
         "x": 250,
         "y": 520,
         "wires": [
             [
-                "a0e02e07.b0951"
+                "dca02b2c.fb3888"
             ]
         ]
     },
     {
-        "id": "a0e02e07.b0951",
+        "id": "dca02b2c.fb3888",
         "type": "debug",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -434,25 +466,25 @@
         "wires": []
     },
     {
-        "id": "3b449943.d6f2b6",
+        "id": "cc39e556.b452c8",
         "type": "mqtt in",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "topic": "BCDS/XDK/single/20:19:AB:F4:04:4E/out/stream",
         "qos": "2",
-        "broker": "ca1a3f45.8878",
+        "broker": "80c0227e.24992",
         "x": 220,
         "y": 740,
         "wires": [
             [
-                "b2c5f1b7.33cec"
+                "c7d7d749.bd2dd8"
             ]
         ]
     },
     {
-        "id": "b2c5f1b7.33cec",
+        "id": "c7d7d749.bd2dd8",
         "type": "json",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "property": "payload",
         "action": "",
@@ -461,14 +493,14 @@
         "y": 700,
         "wires": [
             [
-                "b7bd6ee6.415c4"
+                "bcf00577.230ea8"
             ]
         ]
     },
     {
-        "id": "cf371615.5a0608",
+        "id": "95ad5d29.2e427",
         "type": "function",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "func": "var newMsg = {payload : msg.payload };\nnode.log(\"Nothing happened\")\n\nreturn newMsg;",
         "outputs": 1,
@@ -480,11 +512,11 @@
         ]
     },
     {
-        "id": "8a3eb3a1.7656d",
+        "id": "74406eec.934d6",
         "type": "debug",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -494,28 +526,28 @@
         "wires": []
     },
     {
-        "id": "ca1d8123.91c08",
+        "id": "8fcee958.226168",
         "type": "mqtt in",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "topic": "Gooee/Floor1/Energy/L1Voltage",
         "qos": "2",
-        "broker": "ca1a3f45.8878",
+        "broker": "80c0227e.24992",
         "x": 170,
         "y": 940,
         "wires": [
             [
-                "a22b8b41.e13588",
-                "316300c.ca14a"
+                "6853ba1e.afe904",
+                "2077f305.eb55ec"
             ]
         ]
     },
     {
-        "id": "ad0284da.4cf6e8",
+        "id": "4f87a2a.42dd35c",
         "type": "debug",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -525,9 +557,9 @@
         "wires": []
     },
     {
-        "id": "a22b8b41.e13588",
+        "id": "6853ba1e.afe904",
         "type": "switch",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "DebugOrNotify",
         "property": "payload",
         "propertyType": "msg",
@@ -550,15 +582,15 @@
         "y": 1000,
         "wires": [
             [
-                "ad0284da.4cf6e8"
+                "4f87a2a.42dd35c"
             ],
             []
         ]
     },
     {
-        "id": "b7bd6ee6.415c4",
+        "id": "bcf00577.230ea8",
         "type": "switch",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "IsPayloadJson",
         "property": "payload.analyze",
         "propertyType": "msg",
@@ -577,33 +609,33 @@
         "y": 680,
         "wires": [
             [
-                "cf371615.5a0608"
+                "95ad5d29.2e427"
             ],
             [
-                "8a3eb3a1.7656d"
+                "74406eec.934d6"
             ]
         ]
     },
     {
-        "id": "c7fcf295.b68dd",
+        "id": "364263c6.e2996c",
         "type": "mqtt in",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "",
         "topic": "RobotGuidance",
         "qos": "2",
-        "broker": "ca1a3f45.8878",
+        "broker": "80c0227e.24992",
         "x": 160,
         "y": 420,
         "wires": [
             [
-                "1fa6acc.e425d53"
+                "85ee2b43.4ef438"
             ]
         ]
     },
     {
-        "id": "47c32919.34d018",
+        "id": "548fad94.0356e4",
         "type": "inject",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "",
         "topic": "",
         "payload": "Hello There",
@@ -615,43 +647,43 @@
         "y": 200,
         "wires": [
             [
-                "1fa6acc.e425d53"
+                "85ee2b43.4ef438"
             ]
         ]
     },
     {
-        "id": "1fa6acc.e425d53",
+        "id": "85ee2b43.4ef438",
         "type": "websocket out",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "Subscribe",
         "server": "",
-        "client": "e16b2d86.2a633",
+        "client": "70f20080.67056",
         "x": 602.9999847412109,
         "y": 330,
         "wires": []
     },
     {
-        "id": "e01a2bc9.efbf88",
+        "id": "b529c902.151578",
         "type": "websocket in",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "Publish",
         "server": "",
-        "client": "e16b2d86.2a633",
+        "client": "70f20080.67056",
         "x": 490,
         "y": 500,
         "wires": [
             [
-                "9d185b1a.9e5ec8",
-                "c567972a.d78478"
+                "e40e60e3.a1a22",
+                "ea7cd53b.664fb8"
             ]
         ]
     },
     {
-        "id": "9d185b1a.9e5ec8",
+        "id": "e40e60e3.a1a22",
         "type": "debug",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "",
-        "active": false,
+        "active": true,
         "console": "false",
         "complete": "false",
         "x": 750,
@@ -659,9 +691,9 @@
         "wires": []
     },
     {
-        "id": "3348b062.2641c",
+        "id": "38540269.5f4fde",
         "type": "inject",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "",
         "topic": "",
         "payload": "{\"glossaary\":{\"title\":\"example glossary\",\"GlossDiv\":{\"title\":\"S\",\"GlossList\":{\"GlossEntry\":{\"ID\":\"SGML\",\"SortAs\":\"SGML\",\"GlossTerm\":\"Standard Generalized Markup Language\",\"Acronym\":\"SGML\",\"Abbrev\":\"ISO 8879:1986\",\"GlossDef\":{\"para\":\"A meta-markup language, used to create markup languages such as DocBook.\",\"GlossSeeAlso\":[\"GML\",\"XML\"]},\"GlossSee\":\"markup\"}}}}}",
@@ -674,16 +706,16 @@
         "y": 780,
         "wires": [
             [
-                "fa0f332b.1301"
+                "44cd601a.9d616"
             ]
         ]
     },
     {
-        "id": "fa0f332b.1301",
+        "id": "44cd601a.9d616",
         "type": "firebase modify",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "Realtime Database for IoT Injection",
-        "firebaseconfig": "9d8c7c26.b31e1",
+        "firebaseconfig": "a1649bc5.dd0968",
         "childpath": "Data",
         "method": "push",
         "value": "msg.payload",
@@ -695,11 +727,11 @@
         ]
     },
     {
-        "id": "b27e514e.2e321",
+        "id": "562d3799.6f4268",
         "type": "firebase modify",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "",
-        "firebaseconfig": "9d8c7c26.b31e1",
+        "firebaseconfig": "a1649bc5.dd0968",
         "childpath": "MQTTData",
         "method": "push",
         "value": "msg.payload",
@@ -711,9 +743,9 @@
         ]
     },
     {
-        "id": "8d95e41.eee5b18",
+        "id": "2deb9741.2eb238",
         "type": "comment",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "Temperature Sensor",
         "info": "",
         "x": 250,
@@ -721,9 +753,9 @@
         "wires": []
     },
     {
-        "id": "c07351e2.4bfbc",
+        "id": "7c32c562.47d8fc",
         "type": "comment",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "Add a cable from RobotGuidance to Freebase Database",
         "info": "",
         "x": 460,
@@ -731,58 +763,58 @@
         "wires": []
     },
     {
-        "id": "54e79ed.a76b76",
+        "id": "954d8361.02b6e",
         "type": "mqtt in",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "topic": "bbcdef/Analog2",
         "qos": "2",
-        "broker": "ca1a3f45.8878",
+        "broker": "80c0227e.24992",
         "x": 160,
         "y": 1140,
         "wires": [
             [
-                "1148db79.09c0d5"
+                "84d2d67d.4f33d8"
             ]
         ]
     },
     {
-        "id": "47291bfe.c04ce4",
+        "id": "f4fa5db6.e2581",
         "type": "mqtt in",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "topic": "qwerty/Battery",
         "qos": "2",
-        "broker": "ca1a3f45.8878",
+        "broker": "80c0227e.24992",
         "x": 140,
         "y": 1240,
         "wires": [
             [
-                "31985966.1fc316"
+                "3003e14f.595a9e"
             ]
         ]
     },
     {
-        "id": "22fd342f.05ee0c",
+        "id": "d06b1b17.94b758",
         "type": "mqtt in",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "",
         "topic": "fgbe1300/sensors/room1/pressure",
         "qos": "2",
-        "broker": "ca1a3f45.8878",
+        "broker": "80c0227e.24992",
         "x": 190,
         "y": 1340,
         "wires": [
             [
-                "c4264b4.6a1beb8"
+                "f7144869.8250b8"
             ]
         ]
     },
     {
-        "id": "8fd26fcf.0149b",
+        "id": "6b3dc314.a1e1fc",
         "type": "OpcUa-Client",
-        "z": "f81e0891.aa45d8",
-        "endpoint": "c1f36f3b.8dca1",
+        "z": "e1fd3ffa.d5077",
+        "endpoint": "6d6a1e14.51517",
         "action": "browse",
         "time": 10,
         "timeUnit": "s",
@@ -791,15 +823,15 @@
         "y": 260,
         "wires": [
             [
-                "39e0e189.4dffce"
+                "8af20b85.924948"
             ]
         ]
     },
     {
-        "id": "dbbf6233.9c38",
+        "id": "a0bc1d4f.ad5db",
         "type": "OpcUa-Browser",
-        "z": "f81e0891.aa45d8",
-        "endpoint": "c1f36f3b.8dca1",
+        "z": "e1fd3ffa.d5077",
+        "endpoint": "6d6a1e14.51517",
         "item": "",
         "datatype": "",
         "topic": "ns=1",
@@ -808,15 +840,15 @@
         "y": 400,
         "wires": [
             [
-                "42baad8b.9b1db4",
-                "ed975df.a5172a"
+                "b35ac66.7e9b938",
+                "afda321a.892c"
             ]
         ]
     },
     {
-        "id": "e1422ae0.c62318",
+        "id": "4af38a66.260244",
         "type": "OpcUa-Server",
-        "z": "f81e0891.aa45d8",
+        "z": "e1fd3ffa.d5077",
         "port": "62541",
         "name": "DynamicServer",
         "endpoint": " opc.tcp://desktop-674d0i3:62541/DynamicServer",
@@ -827,9 +859,9 @@
         ]
     },
     {
-        "id": "f14a0194.b58d3",
+        "id": "30ad9b0f.60bad4",
         "type": "inject",
-        "z": "f81e0891.aa45d8",
+        "z": "e1fd3ffa.d5077",
         "name": "Initialization of Server",
         "topic": "",
         "payload": "true",
@@ -842,16 +874,16 @@
         "y": 160,
         "wires": [
             [
-                "39e0e189.4dffce"
+                "8af20b85.924948"
             ]
         ]
     },
     {
-        "id": "42baad8b.9b1db4",
+        "id": "b35ac66.7e9b938",
         "type": "debug",
-        "z": "f81e0891.aa45d8",
+        "z": "e1fd3ffa.d5077",
         "name": "OPC UA Log",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -861,11 +893,11 @@
         "wires": []
     },
     {
-        "id": "154288e.3020e77",
+        "id": "ee0ab71a.7c75e8",
         "type": "firebase modify",
-        "z": "f81e0891.aa45d8",
+        "z": "e1fd3ffa.d5077",
         "name": "",
-        "firebaseconfig": "9d8c7c26.b31e1",
+        "firebaseconfig": "a1649bc5.dd0968",
         "childpath": "OPCUAData",
         "method": "push",
         "value": "msg.payload",
@@ -877,9 +909,9 @@
         ]
     },
     {
-        "id": "ed975df.a5172a",
+        "id": "afda321a.892c",
         "type": "function",
-        "z": "f81e0891.aa45d8",
+        "z": "e1fd3ffa.d5077",
         "name": "",
         "func": "var newMsg = { payload: msg.payload };\n\nvar jsonData = JSON.parse(newMsg);\nfor (var i = 0; i < jsonData.counters.length; i++) {\n    var counter = jsonData.counters[i];\n    \n    \n}\n\n\nreturn JSON.stringify(jsonData[0]) ;\n",
         "outputs": 1,
@@ -888,14 +920,14 @@
         "y": 420,
         "wires": [
             [
-                "154288e.3020e77"
+                "ee0ab71a.7c75e8"
             ]
         ]
     },
     {
-        "id": "7f3c1078.3e586",
+        "id": "f5fb6c89.97be4",
         "type": "comment",
-        "z": "f81e0891.aa45d8",
+        "z": "e1fd3ffa.d5077",
         "name": "Dynamic Server Configuration",
         "info": "",
         "x": 160,
@@ -903,9 +935,9 @@
         "wires": []
     },
     {
-        "id": "39e0e189.4dffce",
+        "id": "8af20b85.924948",
         "type": "switch",
-        "z": "f81e0891.aa45d8",
+        "z": "e1fd3ffa.d5077",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -921,17 +953,17 @@
         "y": 220,
         "wires": [
             [
-                "e1422ae0.c62318",
-                "dbbf6233.9c38"
+                "4af38a66.260244",
+                "a0bc1d4f.ad5db"
             ]
         ]
     },
     {
-        "id": "c567972a.d78478",
+        "id": "ea7cd53b.664fb8",
         "type": "ui_gauge",
-        "z": "24595db0.c85fa2",
+        "z": "bd53151f.a0e1e8",
         "name": "Web Socket Gauge",
-        "group": "45178bb2.542ff4",
+        "group": "26f1007.53e9c",
         "order": 0,
         "width": "",
         "height": "",
@@ -953,11 +985,11 @@
         "wires": []
     },
     {
-        "id": "713ae10a.41739",
+        "id": "8941d25f.562f3",
         "type": "ui_gauge",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "Humidity Sensor",
-        "group": "45178bb2.542ff4",
+        "group": "26f1007.53e9c",
         "order": 0,
         "width": "",
         "height": "",
@@ -979,11 +1011,11 @@
         "wires": []
     },
     {
-        "id": "316300c.ca14a",
+        "id": "2077f305.eb55ec",
         "type": "ui_gauge",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "Voltage Sensor",
-        "group": "a9b8d470.9fab08",
+        "group": "4452a960.484348",
         "order": 0,
         "width": "",
         "height": "",
@@ -1005,11 +1037,11 @@
         "wires": []
     },
     {
-        "id": "31985966.1fc316",
+        "id": "3003e14f.595a9e",
         "type": "ui_gauge",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "Battery Sensor",
-        "group": "a9b8d470.9fab08",
+        "group": "4452a960.484348",
         "order": 0,
         "width": "",
         "height": "",
@@ -1031,11 +1063,11 @@
         "wires": []
     },
     {
-        "id": "c4264b4.6a1beb8",
+        "id": "f7144869.8250b8",
         "type": "ui_gauge",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "Pressure Sensor",
-        "group": "45178bb2.542ff4",
+        "group": "26f1007.53e9c",
         "order": 0,
         "width": "",
         "height": "",
@@ -1057,11 +1089,11 @@
         "wires": []
     },
     {
-        "id": "1148db79.09c0d5",
+        "id": "84d2d67d.4f33d8",
         "type": "ui_chart",
-        "z": "362a98bc.ca2a48",
+        "z": "cfea63a8.14697",
         "name": "Analog Sensor",
-        "group": "a9b8d470.9fab08",
+        "group": "4452a960.484348",
         "order": 0,
         "width": "",
         "height": "",
@@ -1098,50 +1130,205 @@
         ]
     },
     {
-        "id": "d494e364.d6882",
+        "id": "d154c183.d46ee",
         "type": "mqtt in",
-        "z": "2f56a1b6.86a85e",
+        "z": "349ee88.2ce1218",
         "name": "",
         "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/FoFab/NSHV",
         "qos": "2",
-        "broker": "582ca32d.af8e9c",
+        "broker": "13a47849.8bfe88",
         "x": 320,
         "y": 340,
         "wires": [
             [
-                "d1d6995b.36e8e8"
+                "be59e6a2.5126b8"
             ]
         ]
     },
     {
-        "id": "3ed86b56.ee5914",
-        "type": "ui_text",
-        "z": "2f56a1b6.86a85e",
-        "group": "45178bb2.542ff4",
-        "order": 0,
-        "width": "",
-        "height": "",
-        "name": "AdrianSensor",
-        "label": "AdrianSensor",
-        "format": "{{msg.payload}}",
-        "layout": "",
-        "x": 1240,
-        "y": 340,
+        "id": "385b136.a6b77ec",
+        "type": "debug",
+        "z": "349ee88.2ce1218",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 970,
+        "y": 460,
         "wires": []
     },
     {
-        "id": "d1d6995b.36e8e8",
-        "type": "function",
-        "z": "2f56a1b6.86a85e",
-        "name": "nshv-foward",
-        "func": "\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 850,
-        "y": 220,
+        "id": "be59e6a2.5126b8",
+        "type": "json",
+        "z": "349ee88.2ce1218",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 670,
+        "y": 420,
         "wires": [
             [
-                "3ed86b56.ee5914"
+                "ea9c6068.918e3"
+            ]
+        ]
+    },
+    {
+        "id": "ea9c6068.918e3",
+        "type": "function",
+        "z": "349ee88.2ce1218",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\nmsgSecond.payload=Math.round(Math.random()*100);\nmsgSecond.topic='Test Line';\n\nreturn [msgs, msgSecond];\n",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 630,
+        "y": 640,
+        "wires": [
+            [
+                "385b136.a6b77ec",
+                "528076f0.f9ceb8",
+                "7c6b459f.26489c",
+                "962d92da.e1c6e"
+            ],
+            [
+                "526ad582.af8a0c",
+                "577cc890.f36248"
+            ]
+        ]
+    },
+    {
+        "id": "528076f0.f9ceb8",
+        "type": "ui_gauge",
+        "z": "349ee88.2ce1218",
+        "name": "Fraunhofer Sensor",
+        "group": "26f1007.53e9c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Fraunhofer Sensor",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": "-25000",
+        "max": "10000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1020,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "577cc890.f36248",
+        "type": "ui_chart",
+        "z": "349ee88.2ce1218",
+        "name": "",
+        "group": "4452a960.484348",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-25000",
+        "ymax": "20000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 1130,
+        "y": 540,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7c6b459f.26489c",
+        "type": "ui_toast",
+        "z": "349ee88.2ce1218",
+        "position": "top right",
+        "displayTime": "10",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "",
+        "name": "Message Topic",
+        "x": 990,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "526ad582.af8a0c",
+        "type": "debug",
+        "z": "349ee88.2ce1218",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 930,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "fc8becf.a9df21",
+        "type": "inject",
+        "z": "349ee88.2ce1218",
+        "name": "",
+        "topic": "",
+        "payload": "20",
+        "payloadType": "num",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 270,
+        "y": 680,
+        "wires": [
+            [
+                "ea9c6068.918e3"
+            ]
+        ]
+    },
+    {
+        "id": "962d92da.e1c6e",
+        "type": "function",
+        "z": "349ee88.2ce1218",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 920,
+        "y": 520,
+        "wires": [
+            [
+                "577cc890.f36248"
             ]
         ]
     }

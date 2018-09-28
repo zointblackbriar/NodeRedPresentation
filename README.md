@@ -2,6 +2,14 @@ A visual tool for wiring the Internet of Things.
 
 ![Node-RED: A visual tool for wiring the Internet of Things](http://nodered.org/images/node-red-screenshot.png)
 
+Tested with Ubuntu 16.04 LTS 
+npm version -- 6.4.1
+nodejs version --- v10.11.0
+
+Tested with Windows 10
+npm version -- 5.6.0
+nodejs version -- v8.11.1
+
 If you want to run the latest code from git, here's how to get started:
 
 1. Clone the code:
@@ -12,6 +20,11 @@ If you want to run the latest code from git, here's how to get started:
 2. Install the node-red dependencies
 
         npm install
+
+Note: If you get some errors when you typed "npm run build" command, you should type before the command as below, respectively
+
+a) npm rebuild
+b) npm update
 
 3. Build the code
 
@@ -25,6 +38,8 @@ If you want to run the latest code from git, here's how to get started:
         node red.js
 		
 
+After your installation part is finished, you need to configure your nodes manually because of "npm run build" command.
+You can find the node configuration under the folder named "node-red-flows"
 Configuration Part
 
 If you require to use the feature of Real Time Database, you may configure as described below
