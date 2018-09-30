@@ -1387,7 +1387,7 @@
         "ymax": "",
         "removeOlder": 1,
         "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlderUnit": "60",
         "cutout": "",
         "useOneColor": false,
         "colors": [
@@ -1564,7 +1564,8 @@
         "y": 560,
         "wires": [
             [
-                "8d936aec.e693f8"
+                "8d936aec.e693f8",
+                "3358b29.c14b84e"
             ]
         ]
     },
@@ -2169,10 +2170,10 @@
         "nodata": "",
         "dot": false,
         "ymin": "-25000",
-        "ymax": "30000",
+        "ymax": "300000",
         "removeOlder": 1,
         "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlderUnit": "60",
         "cutout": 0,
         "useOneColor": false,
         "colors": [
@@ -2240,5 +2241,47 @@
         "x": 710,
         "y": 1000,
         "wires": []
+    },
+    {
+        "id": "3358b29.c14b84e",
+        "type": "ui_chart",
+        "z": "a070d41d.c38d18",
+        "name": "NSHV Chart",
+        "group": "eafbb9fc.0ddb88",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "NSHV Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-40000",
+        "ymax": "300000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 1270,
+        "y": 700,
+        "wires": [
+            [],
+            []
+        ]
     }
 ]
