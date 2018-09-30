@@ -63,6 +63,7 @@
     "node-red-contrib-firebase": "^1.1.1",
     "node-red-contrib-mqttdb": "^0.1.1",
     "node-red-contrib-opcua": "^0.2.32",
+    "node-red-contrib-timeout": "^1.1.0",
     "node-red-dashboard": "^2.9.8",
     "node-red-node-email": "0.1.*",
     "node-red-node-feedparser": "^0.1.12",
