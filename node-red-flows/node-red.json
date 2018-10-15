@@ -1,38 +1,51 @@
 [
     {
+<<<<<<< HEAD
 <<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
         "id": "c6771e60.07f86",
 =======
         "id": "444d2671.59e6e8",
 >>>>>>> node flow are updated charts added
+=======
+        "id": "444d2671.59e6e8",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "type": "tab",
         "label": "OPC UA ",
         "disabled": false,
         "info": ""
     },
     {
+<<<<<<< HEAD
 <<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
         "id": "b764ad84.c6ba7",
 =======
         "id": "22b506ce.71563a",
 >>>>>>> node flow are updated charts added
+=======
+        "id": "22b506ce.71563a",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "type": "tab",
         "label": "MQTT and Login",
         "disabled": false,
         "info": ""
     },
     {
+<<<<<<< HEAD
 <<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
         "id": "f42bd9c9.6a6648",
 =======
         "id": "83f9ac2e.c5086",
 >>>>>>> node flow are updated charts added
+=======
+        "id": "83f9ac2e.c5086",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "type": "tab",
         "label": "Web Socket and Real Time Database",
         "disabled": false,
         "info": ""
     },
     {
+<<<<<<< HEAD
 <<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
         "id": "a070d41d.c38d18",
         "type": "tab",
@@ -41,6 +54,11 @@
         "id": "d6095a49.f74118",
         "type": "tab",
         "label": "Fraunhofer Flow",
+=======
+        "id": "d6095a49.f74118",
+        "type": "tab",
+        "label": "Fraunhofer Flow",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "disabled": false,
         "info": ""
     },
@@ -48,6 +66,7 @@
         "id": "6d3914fd.19e03c",
         "type": "tab",
         "label": "Sensors",
+<<<<<<< HEAD
 >>>>>>> node flow are updated charts added
         "disabled": false,
         "info": ""
@@ -56,6 +75,8 @@
         "id": "821136b.1d838c8",
         "type": "tab",
         "label": "Sensors",
+=======
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "disabled": false,
         "info": ""
     },
@@ -424,6 +445,7 @@
         "willPayload": ""
     },
     {
+<<<<<<< HEAD
 <<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
         "id": "b1aca0b8.44df9",
         "type": "mqtt-broker",
@@ -441,6 +463,15 @@
         "port": "1883",
         "clientid": "",
 >>>>>>> node flow are updated charts added
+=======
+        "id": "7267d5e1.b41f7c",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "usetls": false,
         "compatmode": true,
         "keepalive": "60",
@@ -456,6 +487,7 @@
         "willPayload": ""
     },
     {
+<<<<<<< HEAD
 <<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
         "id": "9e8741ae.97233",
         "type": "mqtt-broker",
@@ -558,15 +590,65 @@
         "tab": "",
         "order": 2,
         "disp": false,
+=======
+        "id": "58f36fbe.634bc",
+        "type": "mqtt-broker",
+        "broker": "broker.mqtt-dashboard.com",
+        "port": "1883",
+        "clientid": ""
+    },
+    {
+        "id": "14373016.c82ba",
+        "type": "websocket-client",
+        "path": "wss://echo.websocket.org",
+        "wholemsg": "false"
+    },
+    {
+        "id": "6e8eb0a4.e351f",
+        "type": "firebase config",
+        "z": "",
+        "firebaseurl": "node-red-abf7a",
+        "loginType": "none"
+    },
+    {
+        "id": "e534ab19.868fb8",
+        "type": "OpcUa-Endpoint",
+        "z": "",
+        "endpoint": "opc.tcp://desktop-674d0i3:62541/DynamicServer",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "99220e3e.01b8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Analog Measurement",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "e517ff5a.28829",
+        "type": "OpcUa-Endpoint",
+        "z": "",
+        "endpoint": "opc.tcp://DESKTOP-674D0I3:48010",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "aef61ab2.cc90a8",
+        "type": "ui_group",
+        "z": 0,
+        "name": "MqttResult",
+        "tab": "",
+        "order": 2,
+        "disp": false,
         "width": "6",
         "collapse": false
     },
     {
-<<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
-        "id": "2f650feb.d183d",
-=======
         "id": "cca5800e.21633",
->>>>>>> node flow are updated charts added
         "type": "ui_group",
         "z": 0,
         "name": "ParserGroup",
@@ -577,6 +659,43 @@
         "collapse": false
     },
     {
+        "id": "b9de22c6.c3b51",
+        "type": "ui_group",
+        "z": 0,
+        "name": "WebSocket Gauge",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "width": "6",
+        "collapse": false
+    },
+    {
+<<<<<<< HEAD
+<<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
+        "id": "2f650feb.d183d",
+=======
+        "id": "cca5800e.21633",
+>>>>>>> node flow are updated charts added
+        "type": "ui_group",
+        "z": 0,
+        "name": "ParserGroup",
+        "tab": "",
+        "order": 1,
+=======
+        "id": "c5d6681d.4fbc98",
+        "type": "ui_group",
+        "z": 0,
+        "name": "Login",
+        "tab": "",
+        "order": 4,
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+<<<<<<< HEAD
 <<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
         "id": "2eec78d2.064a98",
 =======
@@ -646,11 +765,14 @@
         "name": "Digital Sensor MQTT",
         "tab": "b4c0afba.f36c7",
 =======
+=======
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "id": "851bcb01.fb36e8",
         "type": "ui_group",
         "z": "",
         "name": "Group 1",
         "tab": "7fb154b0.1ee9ec",
+<<<<<<< HEAD
 >>>>>>> node flow are updated charts added
         "order": 1,
         "disp": true,
@@ -3104,10 +3226,13 @@
         "z": "",
         "name": "Digital Sensor MQTT",
         "tab": "7fb154b0.1ee9ec",
+=======
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "order": 1,
         "disp": true,
         "width": "6",
         "collapse": false
+<<<<<<< HEAD
     },
     {
         "id": "f7c1865d.c002a8",
@@ -7119,20 +7244,3423 @@
         "id": "f7ea607a.2160f",
         "type": "function",
         "z": "6d3914fd.19e03c",
+=======
+    },
+    {
+        "id": "e770a1c4.b2f1d",
+        "type": "ui_group",
+        "z": 0,
+        "name": "Login",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c3cd9fc0.c3e7d",
+        "type": "ui_group",
+        "z": "",
+        "name": "Measure",
+        "tab": "ee61f9b4.11b668",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "372f5f4f.13b7b",
+        "type": "ui_group",
+        "z": 0,
+        "name": "Digital Sensor MQTT",
+        "tab": "99220e3e.01b8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "315a12b.a62cdee",
+        "type": "ui_group",
+        "z": "",
+        "name": "Analog Sensor MQTT",
+        "tab": "99220e3e.01b8",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a93a306e.a5e35",
+        "type": "ui_group",
+        "z": "",
+        "name": "Test Sensor",
+        "tab": "99220e3e.01b8",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "68a51288.68410c",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "linkedfactory",
+        "broker": "linkedfactory.iwu.fraunhofer.de",
+        "port": "8883",
+        "clientid": "w7ws0392-node-red",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "6065b53e.e6c8ac",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "8c880d64.3d902",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "8c880d64.3d902",
+        "type": "ui_tab",
+        "z": "",
+        "name": "mqtt-tab",
+        "icon": "dashboard",
+        "order": 3
+    },
+    {
+        "id": "a1d88bec.9ccb78",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "linkedfactory",
+        "broker": "linkedfactory.iwu.fraunhofer.de",
+        "port": "8883",
+        "clientid": "w7ws0392-node-red",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "a2aab966.c1ec18",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "74de391f.96b528",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "74de391f.96b528",
+        "type": "ui_tab",
+        "z": "",
+        "name": "mqtt-tab",
+        "icon": "dashboard",
+        "order": 4
+    },
+    {
+        "id": "f7aab7d.3f1be48",
+        "type": "mqtt-broker",
+        "z": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "1aaa46f5.5e8609",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "linkedfactory.iwu.fraunhofer.de",
+        "port": "8883",
+        "clientid": "w7ws0392-node-red",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "e68c4fc3.276fa",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "15",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "6c0a5c35.109a54",
+        "type": "websocket-client",
+        "path": "wss://echo.websocket.org",
+        "wholemsg": "false"
+    },
+    {
+        "id": "5f678065.ccb36",
+        "type": "firebase config",
+        "z": "",
+        "firebaseurl": "node-red-abf7a",
+        "loginType": "none"
+    },
+    {
+        "id": "71a9cf00.960aa",
+        "type": "OpcUa-Endpoint",
+        "z": "",
+        "endpoint": "opc.tcp://desktop-674d0i3:62541/DynamicServer",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "7fb154b0.1ee9ec",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Digital Measurement",
+        "icon": "dashboard",
+        "order": 5
+    },
+    {
+        "id": "9b4412ea.96e52",
+        "type": "OpcUa-Endpoint",
+        "z": "",
+        "endpoint": "opc.tcp://DESKTOP-674D0I3:48010",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "acca6327.6cf73",
+        "type": "ui_group",
+        "z": 0,
+        "name": "MqttResult",
+        "tab": "",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "665778e5.ae6148",
+        "type": "ui_group",
+        "z": 0,
+        "name": "ParserGroup",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "518a424a.0ad0ac",
+        "type": "ui_group",
+        "z": 0,
+        "name": "WebSocket Gauge",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1a191d2f.982da3",
+        "type": "ui_group",
+        "z": 0,
+        "name": "Login",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "8ce13180.da71",
+        "type": "ui_group",
+        "z": 0,
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "2c1a0caf.4e22c4",
+        "type": "ui_group",
+        "z": 0,
+        "name": "Login",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "885307cb.740d78",
+        "type": "ui_group",
+        "z": 0,
+        "name": "Measure",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5114b412.f66c6c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Digital Sensor MQTT",
+        "tab": "7fb154b0.1ee9ec",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f7c1865d.c002a8",
+        "type": "ui_group",
+        "z": "",
+        "name": "Fraunhofer Gauge",
+        "tab": "ee61f9b4.11b668",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "fd282f75.8236c",
+        "type": "ui_group",
+        "z": "",
+        "name": "Test Sensor",
+        "tab": "7fb154b0.1ee9ec",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "4bf58d83.f43934",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "linkedfactory",
+        "broker": "linkedfactory.iwu.fraunhofer.de",
+        "port": "8883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "25e3b02e.286c7",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "454496ae.b04818",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "454496ae.b04818",
+        "type": "ui_tab",
+        "z": "",
+        "name": "mqtt-tab",
+        "icon": "dashboard",
+        "order": 6
+    },
+    {
+        "id": "66a46e78.04634",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "linkedfactory",
+        "broker": "linkedfactory.iwu.fraunhofer.de",
+        "port": "8883",
+        "clientid": "w7ws0392-node-red",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "ba94532f.2a9a2",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "29ebfd59.3551c2",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "29ebfd59.3551c2",
+        "type": "ui_tab",
+        "z": "",
+        "name": "mqtt-tab",
+        "icon": "dashboard",
+        "order": 7
+    },
+    {
+        "id": "fe5cd51a.f780a8",
+        "type": "mqtt-broker",
+        "z": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "ee61f9b4.11b668",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Sensors",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "44533ba5.7cdeb4",
+        "type": "debug",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 250,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "601f99ee.54d1c8",
+        "type": "mqtt in",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "topic": "current",
+        "qos": "2",
+        "broker": "7267d5e1.b41f7c",
+        "x": 610,
+        "y": 340,
+        "wires": [
+            [
+                "44533ba5.7cdeb4",
+                "8bcdbb87.62c308"
+            ]
+        ]
+    },
+    {
+        "id": "9bc8baff.178a38",
+        "type": "mqtt in",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "topic": "CASAtemperatura",
+        "qos": "2",
+        "broker": "7267d5e1.b41f7c",
+        "x": 250,
+        "y": 520,
+        "wires": [
+            [
+                "14f9bacc.a0e375"
+            ]
+        ]
+    },
+    {
+        "id": "14f9bacc.a0e375",
+        "type": "debug",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 710,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "77f93804.bb98d8",
+        "type": "mqtt in",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "topic": "BCDS/XDK/single/20:19:AB:F4:04:4E/out/stream",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 220,
+        "y": 740,
+        "wires": [
+            [
+                "c6cffb50.5df4a8"
+            ]
+        ]
+    },
+    {
+        "id": "c6cffb50.5df4a8",
+        "type": "json",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 590,
+        "y": 700,
+        "wires": [
+            [
+                "bf292bfb.422a98"
+            ]
+        ]
+    },
+    {
+        "id": "e58154ef.4df088",
+        "type": "function",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "func": "var newMsg = {payload : msg.payload };\nnode.log(\"Nothing happened\")\n\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 980,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e40f9396.667d2",
+        "type": "debug",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 990,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "7a6d1cff.e8fee4",
+        "type": "mqtt in",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "topic": "skkim_cntl/5ccf7f8c1e15/voltage",
+        "qos": "2",
+        "broker": "7267d5e1.b41f7c",
+        "x": 170,
+        "y": 940,
+        "wires": [
+            [
+                "71632c7c.0a60a4",
+                "870bdb41.548238",
+                "ad6c9dc7.d7919"
+            ]
+        ]
+    },
+    {
+        "id": "ad6c9dc7.d7919",
+        "type": "debug",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "71632c7c.0a60a4",
+        "type": "switch",
+        "z": "22b506ce.71563a",
+        "name": "DebugOrNotify",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "230",
+                "vt": "msg"
+            },
+            {
+                "t": "lte",
+                "v": "230",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 660,
+        "y": 1000,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bf292bfb.422a98",
+        "type": "switch",
+        "z": "22b506ce.71563a",
+        "name": "IsPayloadJson",
+        "property": "payload.analyze",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 780,
+        "y": 680,
+        "wires": [
+            [
+                "e58154ef.4df088"
+            ],
+            [
+                "e40f9396.667d2"
+            ]
+        ]
+    },
+    {
+        "id": "dad07eef.60dff",
+        "type": "mqtt in",
+        "z": "83f9ac2e.c5086",
+        "name": "",
+        "topic": "Craig/Solar/System/Power",
+        "qos": "2",
+        "broker": "7267d5e1.b41f7c",
+        "x": 190,
+        "y": 420,
+        "wires": [
+            [
+                "4446da38.481be4"
+            ]
+        ]
+    },
+    {
+        "id": "7d9ec0d4.3b64f",
+        "type": "inject",
+        "z": "83f9ac2e.c5086",
+        "name": "",
+        "topic": "",
+        "payload": "Hello There",
+        "payloadType": "string",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "4446da38.481be4"
+            ]
+        ]
+    },
+    {
+        "id": "4446da38.481be4",
+        "type": "websocket out",
+        "z": "83f9ac2e.c5086",
+        "name": "Subscribe",
+        "server": "",
+        "client": "6c0a5c35.109a54",
+        "x": 602.9999847412109,
+        "y": 330,
+        "wires": []
+    },
+    {
+        "id": "482d3afa.592794",
+        "type": "websocket in",
+        "z": "83f9ac2e.c5086",
+        "name": "Publish",
+        "server": "",
+        "client": "6c0a5c35.109a54",
+        "x": 490,
+        "y": 500,
+        "wires": [
+            [
+                "e68633c5.490c",
+                "5fcaded8.ad3dc"
+            ]
+        ]
+    },
+    {
+        "id": "e68633c5.490c",
+        "type": "debug",
+        "z": "83f9ac2e.c5086",
+        "name": "",
+        "active": false,
+        "console": "false",
+        "complete": "false",
+        "x": 750,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "9d4645f8.807d68",
+        "type": "inject",
+        "z": "83f9ac2e.c5086",
+        "name": "",
+        "topic": "",
+        "payload": "{\"glossaary\":{\"title\":\"example glossary\",\"GlossDiv\":{\"title\":\"S\",\"GlossList\":{\"GlossEntry\":{\"ID\":\"SGML\",\"SortAs\":\"SGML\",\"GlossTerm\":\"Standard Generalized Markup Language\",\"Acronym\":\"SGML\",\"Abbrev\":\"ISO 8879:1986\",\"GlossDef\":{\"para\":\"A meta-markup language, used to create markup languages such as DocBook.\",\"GlossSeeAlso\":[\"GML\",\"XML\"]},\"GlossSee\":\"markup\"}}}}}",
+        "payloadType": "json",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 110,
+        "y": 780,
+        "wires": [
+            [
+                "ce15454b.331798"
+            ]
+        ]
+    },
+    {
+        "id": "ce15454b.331798",
+        "type": "firebase modify",
+        "z": "83f9ac2e.c5086",
+        "name": "Realtime Database for IoT Injection",
+        "firebaseconfig": "5f678065.ccb36",
+        "childpath": "Data",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 460,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f7e89f38.19b24",
+        "type": "firebase modify",
+        "z": "83f9ac2e.c5086",
+        "name": "",
+        "firebaseconfig": "5f678065.ccb36",
+        "childpath": "MQTTData",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 470,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "699744e.6fe36bc",
+        "type": "comment",
+        "z": "22b506ce.71563a",
+        "name": "Temperature Sensor",
+        "info": "",
+        "x": 250,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b212805c.1f0c5",
+        "type": "comment",
+        "z": "83f9ac2e.c5086",
+        "name": "Add a cable from RobotGuidance to Freebase Database",
+        "info": "",
+        "x": 460,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "b18199ce.f282b8",
+        "type": "mqtt in",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "topic": "bbcdef/Analog2",
+        "qos": "2",
+        "broker": "7267d5e1.b41f7c",
+        "x": 160,
+        "y": 1140,
+        "wires": [
+            [
+                "df137bbb.cd0198"
+            ]
+        ]
+    },
+    {
+        "id": "e400180e.0dac38",
+        "type": "mqtt in",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "topic": "qwerty/Battery",
+        "qos": "2",
+        "broker": "7267d5e1.b41f7c",
+        "x": 140,
+        "y": 1240,
+        "wires": [
+            [
+                "d3758067.1eb0c"
+            ]
+        ]
+    },
+    {
+        "id": "fd4248a4.bc5e58",
+        "type": "mqtt in",
+        "z": "22b506ce.71563a",
+        "name": "",
+        "topic": "fgbe1300/sensors/room1/pressure",
+        "qos": "2",
+        "broker": "7267d5e1.b41f7c",
+        "x": 190,
+        "y": 1340,
+        "wires": [
+            [
+                "94808c8f.22c9"
+            ]
+        ]
+    },
+    {
+        "id": "525b0594.99cc3c",
+        "type": "OpcUa-Client",
+        "z": "444d2671.59e6e8",
+        "endpoint": "71a9cf00.960aa",
+        "action": "browse",
+        "time": 10,
+        "timeUnit": "s",
+        "name": "DynamicServer",
+        "x": 280,
+        "y": 260,
+        "wires": [
+            [
+                "91d9ef5f.5349c"
+            ]
+        ]
+    },
+    {
+        "id": "4de0b40e.c6c68c",
+        "type": "OpcUa-Browser",
+        "z": "444d2671.59e6e8",
+        "endpoint": "71a9cf00.960aa",
+        "item": "",
+        "datatype": "",
+        "topic": "ns=1",
+        "items": [],
+        "x": 270,
+        "y": 400,
+        "wires": [
+            [
+                "c24915a0.10b278",
+                "e0af6186.e6ea5"
+            ]
+        ]
+    },
+    {
+        "id": "b6d9cd7a.adf92",
+        "type": "OpcUa-Server",
+        "z": "444d2671.59e6e8",
+        "port": "62541",
+        "name": "DynamicServer",
+        "endpoint": " opc.tcp://desktop-674d0i3:62541/DynamicServer",
+        "x": 520,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a9775884.d004f8",
+        "type": "inject",
+        "z": "444d2671.59e6e8",
+        "name": "Initialization of Server",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "91d9ef5f.5349c"
+            ]
+        ]
+    },
+    {
+        "id": "c24915a0.10b278",
+        "type": "debug",
+        "z": "444d2671.59e6e8",
+        "name": "OPC UA Log",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 870,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "67ab2d5f.248a24",
+        "type": "firebase modify",
+        "z": "444d2671.59e6e8",
+        "name": "",
+        "firebaseconfig": "5f678065.ccb36",
+        "childpath": "OPCUAData",
+        "method": "push",
+        "value": "msg.payload",
+        "priority": "msg.priority",
+        "x": 850,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e0af6186.e6ea5",
+        "type": "function",
+        "z": "444d2671.59e6e8",
+        "name": "",
+        "func": "var newMsg = { payload: msg.payload };\n\nvar jsonData = JSON.parse(newMsg);\nfor (var i = 0; i < jsonData.counters.length; i++) {\n    var counter = jsonData.counters[i];\n    \n    \n}\n\n\nreturn JSON.stringify(jsonData[0]) ;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 550,
+        "y": 420,
+        "wires": [
+            [
+                "67ab2d5f.248a24"
+            ]
+        ]
+    },
+    {
+        "id": "c373556a.ecb4f8",
+        "type": "comment",
+        "z": "444d2671.59e6e8",
+        "name": "Dynamic Server Configuration",
+        "info": "",
+        "x": 160,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "91d9ef5f.5349c",
+        "type": "switch",
+        "z": "444d2671.59e6e8",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5fcaded8.ad3dc",
+        "type": "ui_gauge",
+        "z": "83f9ac2e.c5086",
+        "name": "Solar Energy",
+        "group": "5114b412.f66c6c",
+        "order": 0,
+        "width": "",
+        "height": "",
+        "gtype": "gage",
+        "title": "Solar Energy",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "10000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 870,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "8bcdbb87.62c308",
+        "type": "ui_gauge",
+        "z": "22b506ce.71563a",
+        "name": "Current Sensor",
+        "group": "5114b412.f66c6c",
+        "order": 0,
+        "width": "",
+        "height": "",
+        "gtype": "compass",
+        "title": "Current Sensor",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1130,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "870bdb41.548238",
+        "type": "ui_gauge",
+        "z": "22b506ce.71563a",
+        "name": "Voltage Sensor",
+        "group": "315a12b.a62cdee",
+        "order": 0,
+        "width": "",
+        "height": "",
+        "gtype": "gage",
+        "title": "Voltage Sensor",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 580,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "d3758067.1eb0c",
+        "type": "ui_gauge",
+        "z": "22b506ce.71563a",
+        "name": "Battery Sensor",
+        "group": "372f5f4f.13b7b",
+        "order": 0,
+        "width": "",
+        "height": "",
+        "gtype": "gage",
+        "title": "Battery Sensor",
+        "label": "",
+        "format": "{{value}}",
+        "min": "1",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 460,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "94808c8f.22c9",
+        "type": "ui_gauge",
+        "z": "22b506ce.71563a",
+        "name": "Pressure Sensor",
+        "group": "372f5f4f.13b7b",
+        "order": 0,
+        "width": "",
+        "height": "",
+        "gtype": "gage",
+        "title": "Pressure Sensor",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "2000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 570,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "df137bbb.cd0198",
+        "type": "ui_chart",
+        "z": "22b506ce.71563a",
+        "name": "Analog Sensor",
+        "group": "315a12b.a62cdee",
+        "order": 0,
+        "width": "",
+        "height": "",
+        "label": "Analog Sensor",
+        "chartType": "line",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": "",
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": true,
+        "x": 540,
+        "y": 1120,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c9b7ed00.4a0f1",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/FoFab/NSHV",
+        "qos": "2",
+        "broker": "4bf58d83.f43934",
+        "x": 300,
+        "y": 480,
+        "wires": [
+            [
+                "ce9fb116.ef079"
+            ]
+        ]
+    },
+    {
+        "id": "24b6ba6e.ea2796",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 1230,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "ce9fb116.ef079",
+        "type": "json",
+        "z": "d6095a49.f74118",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 670,
+        "y": 420,
+        "wires": [
+            [
+                "add6c1f6.9eb42"
+            ]
+        ]
+    },
+    {
+        "id": "add6c1f6.9eb42",
+        "type": "function",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\nmsgSecond.payload=Math.round(Math.random()*100);\nmsgSecond.topic='Test Line';\n\nreturn [msgs, msgSecond];\n",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 630,
+        "y": 640,
+        "wires": [
+            [
+                "88e1b9af.0493b8",
+                "80743f78.be35",
+                "1a54342b.ea538c"
+            ],
+            [
+                "6faa85fb.a0609c"
+            ]
+        ]
+    },
+    {
+        "id": "1a54342b.ea538c",
+        "type": "ui_gauge",
+        "z": "d6095a49.f74118",
+        "name": "NSHV",
+        "group": "f7c1865d.c002a8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "NSHV",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": "-25000",
+        "max": "10000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1030,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "88e1b9af.0493b8",
+        "type": "ui_toast",
+        "z": "d6095a49.f74118",
+        "position": "top right",
+        "displayTime": "10",
+        "highlight": "",
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "topic": "",
+        "name": "Message Topic",
+        "x": 990,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "6faa85fb.a0609c",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 930,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "2ed30d6e.853c52",
+        "type": "inject",
+        "z": "d6095a49.f74118",
+        "name": "Test Random Number",
+        "topic": "",
+        "payload": "20",
+        "payloadType": "num",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 440,
+        "y": 680,
+        "wires": [
+            [
+                "add6c1f6.9eb42"
+            ]
+        ]
+    },
+    {
+        "id": "80743f78.be35",
+        "type": "function",
+        "z": "d6095a49.f74118",
         "name": "ReturningFunc",
         "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
+        "x": 960,
+        "y": 560,
+        "wires": [
+            [
+                "24b6ba6e.ea2796",
+                "735d7f03.3f205"
+            ]
+        ]
+    },
+    {
+        "id": "647fdbcf.b16834",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/BDM2000",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 340,
+        "y": 1060,
+        "wires": [
+            [
+                "52b452e9.56aa7c"
+            ]
+        ]
+    },
+    {
+        "id": "52b452e9.56aa7c",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 1090,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "43a784ad.dcb34c",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/Fliesspressen",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 370,
+        "y": 1160,
+        "wires": [
+            [
+                "69ef0b00.351fb4"
+            ]
+        ]
+    },
+    {
+        "id": "69ef0b00.351fb4",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 910,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "a02dc512.d550d8",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/GMX_Entgraten",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 440,
+        "y": 1260,
+        "wires": [
+            [
+                "af0b710c.04774"
+            ]
+        ]
+    },
+    {
+        "id": "af0b710c.04774",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 918.12841796875,
+        "y": 1300.232666015625,
+        "wires": []
+    },
+    {
+        "id": "9cbd3725.773138",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/GMX_Spanen1",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 450,
+        "y": 1360,
+        "wires": [
+            [
+                "c5f85db4.3bddd"
+            ]
+        ]
+    },
+    {
+        "id": "c5f85db4.3bddd",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 910,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "8fce76b8.576198",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/GMX_Spanen2",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 430,
+        "y": 1480,
+        "wires": [
+            [
+                "f4ff99d6.ebc378"
+            ]
+        ]
+    },
+    {
+        "id": "6ad82339.7ab80c",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/GMX_Spanen3",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 430,
+        "y": 1560,
+        "wires": [
+            [
+                "1c23103a.81279"
+            ]
+        ]
+    },
+    {
+        "id": "ab0a37de.187938",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/GMX_Spanen4",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 430,
+        "y": 1640,
+        "wires": [
+            [
+                "9883eb14.cf4fd8"
+            ]
+        ]
+    },
+    {
+        "id": "c93a1715.352b88",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/HA100",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 410,
+        "y": 1720,
+        "wires": [
+            [
+                "750b1c30.ec35f4"
+            ]
+        ]
+    },
+    {
+        "id": "e932759b.c89228",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/Karobau",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 410,
+        "y": 1800,
+        "wires": [
+            [
+                "d3f6e81e.3a4f88"
+            ]
+        ]
+    },
+    {
+        "id": "b9dac17d.9fed7",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/PRD40",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 410,
+        "y": 1880,
+        "wires": [
+            [
+                "fd440b52.db5128"
+            ]
+        ]
+    },
+    {
+        "id": "f4ff99d6.ebc378",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 870,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "1c23103a.81279",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 870,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "9883eb14.cf4fd8",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 870,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "750b1c30.ec35f4",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 810,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "d3f6e81e.3a4f88",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 810,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "fd440b52.db5128",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 790,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "be4074df.465bd8",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": " LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/PWZ",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 400,
+        "y": 1960,
+        "wires": [
+            [
+                "974df4b5.2793e8"
+            ]
+        ]
+    },
+    {
+        "id": "ac618415.b97f38",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/Querwalzen",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 400,
+        "y": 2040,
+        "wires": [
+            [
+                "3d1eaebd.240542"
+            ]
+        ]
+    },
+    {
+        "id": "b7e77d92.de828",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": " LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/E3-Sim/FoFab/Rollex",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 410,
+        "y": 2120,
+        "wires": [
+            [
+                "a8b97407.e97d18"
+            ]
+        ]
+    },
+    {
+        "id": "bf6f39a4.cfa6b8",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/FoFab/BHKW",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 2200,
+        "wires": [
+            [
+                "a62abcdf.256fb"
+            ]
+        ]
+    },
+    {
+        "id": "f59dfc25.f410f",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": " LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/FoFab/BHKW/CoolingWater",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 410,
+        "y": 2260,
+        "wires": [
+            [
+                "39603d06.b38c82"
+            ]
+        ]
+    },
+    {
+        "id": "308b1404.10dc2c",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/FoFab/BHKW/EmergencyCooling",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 440,
+        "y": 2320,
+        "wires": [
+            [
+                "381c1ab8.5c8516"
+            ]
+        ]
+    },
+    {
+        "id": "e67c339c.c36ec",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/FoFab/BHKW/Generator",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 420,
+        "y": 2400,
+        "wires": [
+            [
+                "cd52c71f.7f7778"
+            ]
+        ]
+    },
+    {
+        "id": "974df4b5.2793e8",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 810,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "3d1eaebd.240542",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 790,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "a8b97407.e97d18",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 810,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "39603d06.b38c82",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 870,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "ebe0ba26.145b88",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 1510,
+        "y": 2360,
+        "wires": []
+    },
+    {
+        "id": "1bd971f3.49674e",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 1550,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "eb5cd711.6a24e8",
+        "type": "json",
+        "z": "d6095a49.f74118",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 1010,
+        "y": 980,
+        "wires": [
+            [
+                "8110bd64.14b35"
+            ]
+        ]
+    },
+    {
+        "id": "8110bd64.14b35",
+        "type": "function",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\nmsgSecond.payload=Math.round(Math.random()*100);\nmsgSecond.topic='Test Line';\n\nreturn [msgs, msgSecond];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1190,
+        "y": 980,
+        "wires": [
+            [
+                "1bd971f3.49674e",
+                "b920ddaa.46b1f",
+                "68253944.0047f8"
+            ]
+        ]
+    },
+    {
+        "id": "b920ddaa.46b1f",
+        "type": "ui_gauge",
+        "z": "d6095a49.f74118",
+        "name": "HeatMeter ",
+        "group": "f7c1865d.c002a8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "HeatMeter ",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": "-25000",
+        "max": "300000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1600,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "c5e7c6f2.325288",
+        "type": "ui_chart",
+        "z": "d6095a49.f74118",
+        "name": "HeatMeter Chart",
+        "group": "f7c1865d.c002a8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "HeatMeter Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-25000",
+        "ymax": "300000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 1770,
+        "y": 880,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "68253944.0047f8",
+        "type": "function",
+        "z": "d6095a49.f74118",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1520,
+        "y": 860,
+        "wires": [
+            [
+                "c5e7c6f2.325288"
+            ]
+        ]
+    },
+    {
+        "id": "942e7cb0.dcc5a",
+        "type": "mqtt in",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/IWU/FoFab/BHKW/HeatMeter",
+        "qos": "2",
+        "broker": "4bf58d83.f43934",
+        "x": 400,
+        "y": 920,
+        "wires": [
+            [
+                "83481f29.2e2e7",
+                "eb5cd711.6a24e8"
+            ]
+        ]
+    },
+    {
+        "id": "83481f29.2e2e7",
+        "type": "debug",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 710,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "735d7f03.3f205",
+        "type": "ui_chart",
+        "z": "d6095a49.f74118",
+        "name": "NSHV Chart",
+        "group": "f7c1865d.c002a8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "NSHV Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-40000",
+        "ymax": "300000",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 1270,
+        "y": 700,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e4954e6d.76bc3",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor1",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 120,
+        "wires": [
+            [
+                "2f5536c8.3150ba"
+            ]
+        ]
+    },
+    {
+        "id": "ee71e5ec.04ab38",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor2",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 200,
+        "wires": [
+            [
+                "41bd89d4.999a18"
+            ]
+        ]
+    },
+    {
+        "id": "98570ae.f007bf8",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor3",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 260,
+        "wires": [
+            [
+                "223f042d.db4e0c"
+            ]
+        ]
+    },
+    {
+        "id": "3696ad6d.54fe12",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor4",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 360,
+        "wires": [
+            [
+                "1ae69d9d.2fcc92"
+            ]
+        ]
+    },
+    {
+        "id": "91a7d651.ac2ec8",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor5",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 460,
+        "wires": [
+            [
+                "1a7ef723.1bdca9"
+            ]
+        ]
+    },
+    {
+        "id": "ae7cae83.72e18",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor6",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 520,
+        "wires": [
+            [
+                "42ac254f.8fda3c"
+            ]
+        ]
+    },
+    {
+        "id": "67cca3c4.20e14c",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor7",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 580,
+        "wires": [
+            [
+                "2e6f4b29.7c9b84"
+            ]
+        ]
+    },
+    {
+        "id": "dbf1b5b.9b4a548",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor8",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 640,
+        "wires": [
+            [
+                "1e5a8f68.eb3721"
+            ]
+        ]
+    },
+    {
+        "id": "96faf7e6.5857a8",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine1/sensor9",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 380,
+        "y": 700,
+        "wires": [
+            [
+                "74beb7eb.a66a48",
+                "46919772.a4e0d8"
+            ]
+        ]
+    },
+    {
+        "id": "e89df66e.74de38",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor1",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 920,
+        "wires": [
+            [
+                "5072e0c0.86e8d"
+            ]
+        ]
+    },
+    {
+        "id": "99eb82f0.a52d2",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor2",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1000,
+        "wires": [
+            [
+                "2a6309ea.dc20a6"
+            ]
+        ]
+    },
+    {
+        "id": "b99dba1a.4de068",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor3",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1060,
+        "wires": [
+            [
+                "4bfc00da.d220d"
+            ]
+        ]
+    },
+    {
+        "id": "7db4722c.19a7bc",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor4",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1140,
+        "wires": [
+            [
+                "b3d9171b.f41808"
+            ]
+        ]
+    },
+    {
+        "id": "1f1b97a.49f5968",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor5",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1200,
+        "wires": [
+            [
+                "1c73ad65.00dee3"
+            ]
+        ]
+    },
+    {
+        "id": "63256452.1af63c",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor6",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1260,
+        "wires": [
+            [
+                "f593fd1b.f7c96"
+            ]
+        ]
+    },
+    {
+        "id": "9ae56197.2e9ea",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor7",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1320,
+        "wires": [
+            [
+                "739eb299.ed197c"
+            ]
+        ]
+    },
+    {
+        "id": "a95e06e7.4ecad8",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor8",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1380,
+        "wires": [
+            [
+                "7dfa2e08.0eefd"
+            ]
+        ]
+    },
+    {
+        "id": "1ff9de63.c38cc2",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor9",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1440,
+        "wires": [
+            [
+                "7c2c7726.7f9948"
+            ]
+        ]
+    },
+    {
+        "id": "eb40154.b8dd8e8",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine2/sensor10",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 370,
+        "y": 1500,
+        "wires": [
+            [
+                "60f66d48.24aab4"
+            ]
+        ]
+    },
+    {
+        "id": "5072e0c0.86e8d",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 790,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "2a6309ea.dc20a6",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "4bfc00da.d220d",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "b3d9171b.f41808",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "1c73ad65.00dee3",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "f593fd1b.f7c96",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "739eb299.ed197c",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 750,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "7dfa2e08.0eefd",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 750,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "7c2c7726.7f9948",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 750,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "60f66d48.24aab4",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "b119a862.b55858",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor1",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1280,
+        "y": 920,
+        "wires": [
+            [
+                "11de940a.d2b44c"
+            ]
+        ]
+    },
+    {
+        "id": "1ddaf19f.ea05ae",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor2",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1280,
+        "y": 1000,
+        "wires": [
+            [
+                "925f3eb6.48264"
+            ]
+        ]
+    },
+    {
+        "id": "14205731.5d3059",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor3",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1280,
+        "y": 1060,
+        "wires": [
+            [
+                "8cc609e7.963348"
+            ]
+        ]
+    },
+    {
+        "id": "f6baadfb.069e1",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor4",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1260,
+        "y": 1140,
+        "wires": [
+            [
+                "29ea5c9.73ae8a4"
+            ]
+        ]
+    },
+    {
+        "id": "23b0197a.dffe96",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor5",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1300,
+        "y": 1200,
+        "wires": [
+            [
+                "6ace1224.99263c"
+            ]
+        ]
+    },
+    {
+        "id": "841ba472.464558",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor6",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1280,
+        "y": 1280,
+        "wires": [
+            [
+                "fbcf9d24.aebc3"
+            ]
+        ]
+    },
+    {
+        "id": "acc9c1d7.ab2f1",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor7",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1260,
+        "y": 1340,
+        "wires": [
+            [
+                "d7e16b53.7c0b58"
+            ]
+        ]
+    },
+    {
+        "id": "df4ef273.e04bd",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor8",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1240,
+        "y": 1400,
+        "wires": [
+            [
+                "9979cc7f.737ff"
+            ]
+        ]
+    },
+    {
+        "id": "c369d2eb.66661",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor9",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1280,
+        "y": 1460,
+        "wires": [
+            [
+                "b121b598.9d7528"
+            ]
+        ]
+    },
+    {
+        "id": "e1c9a9f7.014768",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine3/sensor10",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 1270,
+        "y": 1520,
+        "wires": [
+            [
+                "94c96d05.baba6"
+            ]
+        ]
+    },
+    {
+        "id": "11de940a.d2b44c",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1690,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "925f3eb6.48264",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1690,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "8cc609e7.963348",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1690,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "29ea5c9.73ae8a4",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1690,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "6ace1224.99263c",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1730,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "fbcf9d24.aebc3",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1670,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "d7e16b53.7c0b58",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1670,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "9979cc7f.737ff",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1690,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "b121b598.9d7528",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1670,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "94c96d05.baba6",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1710,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "99dab0ef.8e543",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor1",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1580,
+        "wires": [
+            [
+                "36830017.cf2db"
+            ]
+        ]
+    },
+    {
+        "id": "310c7f5.944fe8",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor2",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1660,
+        "wires": [
+            [
+                "68984996.4ac208"
+            ]
+        ]
+    },
+    {
+        "id": "ecd29afa.b9c618",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor3",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1720,
+        "wires": [
+            [
+                "9f560952.e7eae8"
+            ]
+        ]
+    },
+    {
+        "id": "9873b6de.929da8",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor4",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1780,
+        "wires": [
+            [
+                "b76b1306.5c85"
+            ]
+        ]
+    },
+    {
+        "id": "3167a54c.652caa",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor5",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1860,
+        "wires": [
+            [
+                "42121b62.4a6264"
+            ]
+        ]
+    },
+    {
+        "id": "52d73f68.64f1e",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor6",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1920,
+        "wires": [
+            [
+                "407098a1.593a48"
+            ]
+        ]
+    },
+    {
+        "id": "f7b665a9.251558",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor7",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 1980,
+        "wires": [
+            [
+                "4833c25b.1b51dc"
+            ]
+        ]
+    },
+    {
+        "id": "8da8a619.910418",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor8",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 2040,
+        "wires": [
+            [
+                "e52dde41.b20d6"
+            ]
+        ]
+    },
+    {
+        "id": "b7b07e3e.24c8f",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor9",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 360,
+        "y": 2100,
+        "wires": [
+            [
+                "7802c2b7.3ddcdc"
+            ]
+        ]
+    },
+    {
+        "id": "de4d175e.757c58",
+        "type": "mqtt in",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "topic": "LF/E/linkedfactory.iwu.fraunhofer.de/linkedfactory/demofactory/machine4/sensor10",
+        "qos": "2",
+        "broker": "1aaa46f5.5e8609",
+        "x": 350,
+        "y": 2160,
+        "wires": [
+            [
+                "ece70f47.6e269"
+            ]
+        ]
+    },
+    {
+        "id": "36830017.cf2db",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 790,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "68984996.4ac208",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 790,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "9f560952.e7eae8",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "b76b1306.5c85",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "42121b62.4a6264",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 790,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "407098a1.593a48",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "4833c25b.1b51dc",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 770,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "e52dde41.b20d6",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 790,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "7802c2b7.3ddcdc",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 790,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "ece70f47.6e269",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 790,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "454a4045.f4a2c",
+        "type": "function",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1090,
+        "y": 2440,
+        "wires": [
+            [
+                "bebf058c.388128"
+            ]
+        ]
+    },
+    {
+        "id": "bebf058c.388128",
+        "type": "function",
+        "z": "d6095a49.f74118",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+<<<<<<< HEAD
         "x": 2380,
         "y": 440,
         "wires": [
             [
                 "764b85cd.45058c",
                 "b2e0d34f.157af"
+=======
+        "x": 1280,
+        "y": 2460,
+        "wires": [
+            [
+                "269c4999.0199f6",
+                "ebe0ba26.145b88"
             ]
         ]
     },
     {
+        "id": "269c4999.0199f6",
+        "type": "ui_gauge",
+        "z": "d6095a49.f74118",
+        "name": "BHKW Generator",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BHKW Generator",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1660,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "cd52c71f.7f7778",
+        "type": "json",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 860,
+        "y": 2460,
+        "wires": [
+            [
+                "454a4045.f4a2c"
+            ]
+        ]
+    },
+    {
+        "id": "7a06aaea.08f364",
+        "type": "function",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1130,
+        "y": 2220,
+        "wires": [
+            [
+                "ffd6f2f4.e3fa4"
+            ]
+        ]
+    },
+    {
+        "id": "ffd6f2f4.e3fa4",
+        "type": "function",
+        "z": "d6095a49.f74118",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1320,
+        "y": 2240,
+        "wires": [
+            [
+                "dae44166.d0b36"
+            ]
+        ]
+    },
+    {
+        "id": "dae44166.d0b36",
+        "type": "ui_gauge",
+        "z": "d6095a49.f74118",
+        "name": "Emergency Cooling",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Emergency Cooling",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "1000000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1450,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "381c1ab8.5c8516",
+        "type": "json",
+        "z": "d6095a49.f74118",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1070,
+        "y": 2320,
+        "wires": [
+            [
+                "7a06aaea.08f364"
+            ]
+        ]
+    },
+    {
+        "id": "178b6c89.82bdd3",
+        "type": "function",
+        "z": "d6095a49.f74118",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1130,
+        "y": 2000,
+        "wires": [
+            [
+                "f9450a83.e46d28"
+            ]
+        ]
+    },
+    {
+        "id": "f9450a83.e46d28",
+        "type": "function",
+        "z": "d6095a49.f74118",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1320,
+        "y": 2020,
+        "wires": [
+            [
+                "ee514def.da9f2"
+            ]
+        ]
+    },
+    {
+        "id": "ee514def.da9f2",
+        "type": "ui_gauge",
+        "z": "d6095a49.f74118",
+        "name": "BHKW",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "BHKW",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1410,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "a62abcdf.256fb",
+        "type": "json",
+        "z": "d6095a49.f74118",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1070,
+        "y": 2100,
+        "wires": [
+            [
+                "178b6c89.82bdd3"
+            ]
+        ]
+    },
+    {
+        "id": "60b0a0a4.e23de",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1090,
+        "y": 100,
+        "wires": [
+            [
+                "5f5fdae9.c1fb14"
+            ]
+        ]
+    },
+    {
+        "id": "5f5fdae9.c1fb14",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1280,
+        "y": 120,
+        "wires": [
+            [
+                "7af332f.79229cc"
+            ]
+        ]
+    },
+    {
+        "id": "2f5536c8.3150ba",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1030,
+        "y": 200,
+        "wires": [
+            [
+                "60b0a0a4.e23de"
+            ]
+        ]
+    },
+    {
+        "id": "8b06d8f1.7aaca8",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1130,
+        "y": 280,
+        "wires": [
+            [
+                "71f6e1aa.7e791"
+            ]
+        ]
+    },
+    {
+        "id": "71f6e1aa.7e791",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1320,
+        "y": 300,
+        "wires": [
+            [
+                "5c71094f.86b588",
+                "f98f75c.c209888"
+            ]
+        ]
+    },
+    {
+        "id": "5c71094f.86b588",
+        "type": "ui_gauge",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 2",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Machine 1 Sensor 2",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1460,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "41bd89d4.999a18",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1070,
+        "y": 380,
+        "wires": [
+            [
+                "8b06d8f1.7aaca8"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+            ]
+        ]
+    },
+    {
+<<<<<<< HEAD
         "id": "764b85cd.45058c",
         "type": "ui_gauge",
         "z": "6d3914fd.19e03c",
@@ -7171,10 +10699,42 @@
         "wires": [
             [
                 "8a2e38cd.418248"
+=======
+        "id": "c0e174ae.0c3a68",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1230,
+        "y": 420,
+        "wires": [
+            [
+                "96448328.2d879"
             ]
         ]
     },
     {
+        "id": "96448328.2d879",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1420,
+        "y": 440,
+        "wires": [
+            [
+                "92121781.887528",
+                "6809d46c.7c8f1c"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+            ]
+        ]
+    },
+    {
+<<<<<<< HEAD
         "id": "46919772.a4e0d8",
         "type": "debug",
         "z": "6d3914fd.19e03c",
@@ -7217,10 +10777,51 @@
         "wires": [
             [
                 "efd9f1f5.aa3bc"
+=======
+        "id": "92121781.887528",
+        "type": "ui_gauge",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 3",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Machine 1 Sensor 3",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1560,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "223f042d.db4e0c",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1170,
+        "y": 520,
+        "wires": [
+            [
+                "c0e174ae.0c3a68"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
             ]
         ]
     },
     {
+<<<<<<< HEAD
         "id": "68d0d01a.90a4c",
         "type": "mqtt in",
         "z": "821136b.1d838c8",
@@ -7233,10 +10834,25 @@
         "wires": [
             [
                 "b9fed7dc.ab6448"
+=======
+        "id": "c830cc6e.6bb63",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1650,
+        "y": 120,
+        "wires": [
+            [
+                "4792d76c.d606b8"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
             ]
         ]
     },
     {
+<<<<<<< HEAD
         "id": "ec42dc36.faff",
         "type": "mqtt in",
         "z": "821136b.1d838c8",
@@ -7249,10 +10865,26 @@
         "wires": [
             [
                 "df190a2e.7bfe28"
+=======
+        "id": "4792d76c.d606b8",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1840,
+        "y": 140,
+        "wires": [
+            [
+                "50fcbd5e.5e5f54",
+                "cf18c94e.563128"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
             ]
         ]
     },
     {
+<<<<<<< HEAD
         "id": "e007a8b2.c6c8e8",
         "type": "mqtt in",
         "z": "821136b.1d838c8",
@@ -7392,10 +11024,51 @@
         "wires": [
             [
                 "b94c0e2d.aebbf"
+=======
+        "id": "50fcbd5e.5e5f54",
+        "type": "ui_gauge",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 4",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Machine 1 Sensor 4",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1980,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1ae69d9d.2fcc92",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1630,
+        "y": 240,
+        "wires": [
+            [
+                "c830cc6e.6bb63"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
             ]
         ]
     },
     {
+<<<<<<< HEAD
 <<<<<<< 5b6c076785fdf1dbcc644e7de06a128f5b1ff500
         "id": "7b0feafd.f9f5f4",
         "type": "mqtt in",
@@ -7409,10 +11082,25 @@
         "wires": [
             [
                 "c35eb74e.75d768"
+=======
+        "id": "4ccbb10a.4d06f",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1770,
+        "y": 360,
+        "wires": [
+            [
+                "e7989b5a.7e1028"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
             ]
         ]
     },
     {
+<<<<<<< HEAD
         "id": "8c7c4c49.b7054",
         "type": "mqtt in",
         "z": "821136b.1d838c8",
@@ -7425,10 +11113,67 @@
         "wires": [
             [
                 "ce36957c.f15618"
+=======
+        "id": "e7989b5a.7e1028",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1960,
+        "y": 380,
+        "wires": [
+            [
+                "758261b2.4a8bb"
             ]
         ]
     },
     {
+        "id": "758261b2.4a8bb",
+        "type": "ui_gauge",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 5",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Machine 1 Sensor 5",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 2100,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "1a7ef723.1bdca9",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1710,
+        "y": 460,
+        "wires": [
+            [
+                "4ccbb10a.4d06f"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+            ]
+        ]
+    },
+    {
+<<<<<<< HEAD
         "id": "c5c1afbc.90335",
         "type": "mqtt in",
         "z": "821136b.1d838c8",
@@ -7441,10 +11186,42 @@
         "wires": [
             [
                 "54f2be4c.36142"
+=======
+        "id": "faa3499a.f94c98",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1670,
+        "y": 600,
+        "wires": [
+            [
+                "b592c358.2e539"
             ]
         ]
     },
     {
+        "id": "b592c358.2e539",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1840,
+        "y": 600,
+        "wires": [
+            [
+                "6060bec9.37b4d",
+                "67064fe.b9aa5b"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+            ]
+        ]
+    },
+    {
+<<<<<<< HEAD
         "id": "d5dc2ed1.44a5e",
         "type": "mqtt in",
         "z": "821136b.1d838c8",
@@ -7457,10 +11234,67 @@
         "wires": [
             [
                 "9106cd5c.9bc61"
+=======
+        "id": "6060bec9.37b4d",
+        "type": "ui_gauge",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 6",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Machine 1 Sensor 6",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1920,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "42ac254f.8fda3c",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1590,
+        "y": 680,
+        "wires": [
+            [
+                "faa3499a.f94c98"
             ]
         ]
     },
     {
+        "id": "27c35bf.ea350a4",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1530,
+        "y": 740,
+        "wires": [
+            [
+                "94551a4d.18a538"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+            ]
+        ]
+    },
+    {
+<<<<<<< HEAD
         "id": "56ef5069.a96ce",
         "type": "mqtt in",
         "z": "821136b.1d838c8",
@@ -7473,10 +11307,26 @@
         "wires": [
             [
                 "1e656836.845d18"
+=======
+        "id": "94551a4d.18a538",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1720,
+        "y": 760,
+        "wires": [
+            [
+                "12cb5702.9f8b89",
+                "4e5de20e.5f5b7c"
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
             ]
         ]
     },
     {
+<<<<<<< HEAD
         "id": "667d2f87.12183",
         "type": "mqtt in",
         "z": "821136b.1d838c8",
@@ -7491,11 +11341,222 @@
         "type": "ui_chart",
         "z": "6d3914fd.19e03c",
         "name": "Machine 1 Sensor 2",
+=======
+        "id": "12cb5702.9f8b89",
+        "type": "ui_gauge",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 7",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Machine 1 Sensor 7",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1860,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "2e6f4b29.7c9b84",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 1470,
+        "y": 840,
+        "wires": [
+            [
+                "27c35bf.ea350a4"
+            ]
+        ]
+    },
+    {
+        "id": "2eadba87.5fd866",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2150,
+        "y": 660,
+        "wires": [
+            [
+                "39211765.c77dd8"
+            ]
+        ]
+    },
+    {
+        "id": "39211765.c77dd8",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2340,
+        "y": 680,
+        "wires": [
+            [
+                "26e057c8.475f78",
+                "293bd4b9.7b44ec"
+            ]
+        ]
+    },
+    {
+        "id": "26e057c8.475f78",
+        "type": "ui_gauge",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 8",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Machine 1 Sensor 8",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 2480,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "1e5a8f68.eb3721",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 2090,
+        "y": 760,
+        "wires": [
+            [
+                "2eadba87.5fd866"
+            ]
+        ]
+    },
+    {
+        "id": "8a2e38cd.418248",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "func": "var keys = Object.keys(msg.payload);\nvar msgSecond = {}\n\nvar msgs = keys.map(function(key) {\n    return { topic: key, payload: msg.payload[key] };\n});\n\n\nreturn [msgs];\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2190,
+        "y": 420,
+        "wires": [
+            [
+                "f7ea607a.2160f"
+            ]
+        ]
+    },
+    {
+        "id": "f7ea607a.2160f",
+        "type": "function",
+        "z": "6d3914fd.19e03c",
+        "name": "ReturningFunc",
+        "func": "var newMsg = { payload: msg.payload.value };\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2380,
+        "y": 440,
+        "wires": [
+            [
+                "764b85cd.45058c",
+                "b2e0d34f.157af"
+            ]
+        ]
+    },
+    {
+        "id": "764b85cd.45058c",
+        "type": "ui_gauge",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 9",
+        "group": "c3cd9fc0.c3e7d",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Machine 1 Sensor 9",
+        "label": "units",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "10",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 2520,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "74beb7eb.a66a48",
+        "type": "json",
+        "z": "6d3914fd.19e03c",
+        "name": "Json Parser",
+        "property": "payload",
+        "action": "obj",
+        "pretty": true,
+        "x": 2130,
+        "y": 520,
+        "wires": [
+            [
+                "8a2e38cd.418248"
+            ]
+        ]
+    },
+    {
+        "id": "46919772.a4e0d8",
+        "type": "debug",
+        "z": "6d3914fd.19e03c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 890,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "7af332f.79229cc",
+        "type": "ui_chart",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 1",
         "group": "f7c1865d.c002a8",
         "order": 0,
         "width": 0,
         "height": 0,
-        "label": "Machine 1 Sensor 2",
+        "label": "Machine 1 Sensor 1",
         "chartType": "line",
         "legend": "false",
         "xformat": "HH:mm:ss",
@@ -7521,23 +11582,86 @@
             "#c5b0d5"
         ],
         "useOldStyle": false,
-        "x": 1340,
-        "y": 360,
+        "x": 1460,
+        "y": 40,
         "wires": [
             [],
             []
         ]
     },
     {
+        "id": "b2e0d34f.157af",
+        "type": "ui_chart",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 9",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "group": "f7c1865d.c002a8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+<<<<<<< HEAD
+        "label": "Machine 1 Sensor 2",
+=======
+        "label": "Machine 1 Sensor 9",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+<<<<<<< HEAD
+        "x": 1340,
+        "y": 360,
+=======
+        "x": 2660,
+        "y": 440,
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+<<<<<<< HEAD
         "id": "cf18c94e.563128",
         "type": "ui_chart",
         "z": "6d3914fd.19e03c",
         "name": "Machine 1 Sensor 4",
+=======
+        "id": "6809d46c.7c8f1c",
+        "type": "ui_chart",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 3",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "group": "f7c1865d.c002a8",
         "order": 0,
         "width": 0,
         "height": 0,
+<<<<<<< HEAD
         "label": "Machine 1 Sensor 4",
+=======
+        "label": "Machine 1 Sensor 3",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "chartType": "line",
         "legend": "false",
         "xformat": "HH:mm:ss",
@@ -7563,23 +11687,39 @@
             "#c5b0d5"
         ],
         "useOldStyle": false,
+<<<<<<< HEAD
         "x": 2120,
         "y": 180,
+=======
+        "x": 1540,
+        "y": 500,
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "wires": [
             [],
             []
         ]
     },
     {
+<<<<<<< HEAD
         "id": "67064fe.b9aa5b",
         "type": "ui_chart",
         "z": "6d3914fd.19e03c",
         "name": "Machine 1 Sensor 6",
+=======
+        "id": "f98f75c.c209888",
+        "type": "ui_chart",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 2",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "group": "f7c1865d.c002a8",
         "order": 0,
         "width": 0,
         "height": 0,
+<<<<<<< HEAD
         "label": "Machine 1 Sensor 6",
+=======
+        "label": "Machine 1 Sensor 2",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "chartType": "line",
         "legend": "false",
         "xformat": "HH:mm:ss",
@@ -7605,6 +11745,7 @@
             "#c5b0d5"
         ],
         "useOldStyle": false,
+<<<<<<< HEAD
         "x": 2100,
         "y": 600,
 >>>>>>> node flow are updated charts added
@@ -7759,6 +11900,115 @@
         "type": "ui_chart",
         "z": "6d3914fd.19e03c",
         "name": "Machine 1 Sensor 7",
+=======
+        "x": 1340,
+        "y": 360,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "cf18c94e.563128",
+        "type": "ui_chart",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 4",
+        "group": "f7c1865d.c002a8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Machine 1 Sensor 4",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 2120,
+        "y": 180,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "67064fe.b9aa5b",
+        "type": "ui_chart",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 6",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "group": "f7c1865d.c002a8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+<<<<<<< HEAD
+        "label": "Machine 1 Sensor 7",
+=======
+        "label": "Machine 1 Sensor 6",
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+<<<<<<< HEAD
+        "x": 1940,
+        "y": 820,
+=======
+        "x": 2100,
+        "y": 600,
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+<<<<<<< HEAD
+=======
+        "id": "4e5de20e.5f5b7c",
+        "type": "ui_chart",
+        "z": "6d3914fd.19e03c",
+        "name": "Machine 1 Sensor 7",
         "group": "f7c1865d.c002a8",
         "order": 0,
         "width": 0,
@@ -7797,6 +12047,7 @@
         ]
     },
     {
+>>>>>>> accaf573c84031dfd31acd11d2f7ffa4d965445f
         "id": "293bd4b9.7b44ec",
         "type": "ui_chart",
         "z": "6d3914fd.19e03c",

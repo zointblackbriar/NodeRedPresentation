@@ -42,6 +42,18 @@ After your installation part is finished, you need to configure your nodes manua
 You can find the node configuration under the folder named "node-red-flows"
 Configuration Part
 
+The following screenshot taken from real-time view.
+
+## Analog Measurement
+![AnalogMeasurement](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Analog_Mesurement.png)
+
+## Panel
+![Panel](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/panel.png)
+
+
+## Sensors of Fraunhofer
+![Sensors](https://github.com/zointblackbriar/NodeRedPresentation/blob/master/img/NodeRedPresentation/Sensors.png)
+
 If you require to use the feature of Real Time Database, you may configure as described below
 
 In Intro Page, as you can see that we need to create a Real Time Database
